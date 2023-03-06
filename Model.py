@@ -22,6 +22,6 @@ model.compile(loss='sparse_categorical_crossentropy',metrics=['accuracy','mae'],
 model.fit(x_train,y_train,epochs=10, validation_split= 0.2)
 eval =model.evaluate(x_train,y_train)
 print(eval)
-model.save('boston_housing/boston_housing model')
+model.save('MNIST/MNIST_Model')
 # model.predict(x_test[10])
 print(model.weights)

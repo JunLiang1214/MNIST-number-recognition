@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from keras.datasets import mnist
 
 
-model=tf.keras.models.load_model('boston_housing/boston_housing model')
+model=tf.keras.models.load_model('MNIST/MNIST_Model')
 (x_train,y_train),(x_test,y_test)=mnist.load_data()
 
 image=Image.open() #'picture'
